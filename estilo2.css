@@ -1,0 +1,272 @@
+
+/*Página INDEX*/
+
+#principal {
+	border: solid 2px white;
+	width: 1320px;
+	height: 1550px;
+	background-image: url("imagens/1.jpg");
+}
+#secundaria {
+	border: solid 2px;
+	width: 860px;
+	height: 1450px;
+	margin-top: 50px;
+	margin-left: 230px;
+	border-color: black;
+	background-color: white;
+	border-color: white;
+}
+.cabecalho {
+	border: solid 1px;
+	width: 858px;
+	height: 290px;
+	background-color: #6E7B8B;
+	border-color: white;
+}
+.img {
+	width: 858px;
+	height: 250px;
+}
+.nav {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+
+}
+.img1 {
+	color: white;
+	padding-left: 8px;
+}
+.bloco {
+	border: solid 2px #A2B5CD;
+	width: 250px;
+	height: 250px;
+	margin-left: 100px;
+	margin-top: 30px;
+	display: inline-block;
+	border-radius: 10px;
+	box-shadow: 4px 4px 0 0 #A2B5CD;
+
+}
+.titulo {
+	text-align: center;
+	font-family: Arial;
+}
+.img2 {
+	margin-left: 48px;
+}
+.cadastro {
+	border: solid 2px green;
+	width: 400px;
+	height: 150px;
+	margin-left: 220px;
+	margin-top: 60px;
+	border-radius: 10px;
+	background-color: green;
+}
+.cadastro:hover {
+	animation: cad 5s;
+	-moz-animation: cad 5s;
+	-webkit-animation: cad 5s;
+	-o-animation: cad 5s;
+}
+@keyframes cad {
+	0% {
+		background-color: #228B22;
+	}
+	20% {
+		background-color: #B8860B;
+	}
+	40% {
+		background-color: #FF8C00;
+	}
+	60% {
+		background-color: #FF0000;
+	}
+	80% {
+		background-color: #00868B;
+	}
+	100% {
+		background-color: #8B2500;
+	}
+}
+.cd {
+	font-size: 30px;
+	font-family: Arial;
+	color: white;
+	margin-left: 115px;
+}
+p.lc {
+	font-family: Arial;
+	font-size: 14px;
+	margin-left: 365px;
+	padding-top: 20px;
+}
+.rodape {
+	background-color: black;
+	color: white;
+	font-family: Arial;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-right: 8px;
+}
+
+/*Página-Cadastro*/
+
+.cabecalho1 {
+	border: solid 1px red;
+	width: 858px;
+	height: 290px;
+	background-color: #43CD80;
+	border-color: white;
+}
+.fonte {
+	color: black;
+	padding-left: 8px;	
+}
+#principal1 {
+	border: solid 2px white;
+	width: 1320px;
+	height: 980px;
+	background-image: url("imagens/1.jpg");
+}
+#secundaria1 {
+	border: solid 2px;
+	width: 860px;
+	height: 880px;
+	margin-top: 50px;
+	margin-left: 230px;
+	border-color: black;
+	background-color: white;
+	border-color: white;
+}
+.cadast {
+	border: solid 2px #548B54;
+	width: 550px;
+	height: 500px;
+	margin-top: 30px;
+	margin-left: 145px;
+	border-radius: 20px 0 20px 0;
+	box-shadow: 20px 0 20px 0 #548B54;
+}
+.formulario {
+	margin-left: 45px;
+	font-family: Arial;
+}
+
+/*Página Jogos*/
+
+/*Jogo 1*/
+.cabecalho2 {
+	border: solid 1px red;
+	width: 858px;
+	height: 290px;
+	background-color: red;
+	border-color: white;
+}
+.fonte2 {
+	color: white;
+	padding-left: 8px;
+}
+.img4 {
+	width: 400px;
+	height: 300px;
+	margin-left: 180px;
+}
+p.p2 {
+	font-family: Arial;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+/*Jogo 2*/
+.cabecalho3 {
+	border: solid 1px;
+	width: 858px;
+	height: 290px;
+	background-color: green;
+	border-color: white;
+}
+.fonte3 {
+	color: yellow;
+	padding-left: 8px;
+}
+p.p3 {
+	font-family: Arial;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+/*Jogo 3*/
+.cabecalho4 {
+	border: solid 1px;
+	width: 858px;
+	height: 290px;
+	background-color: #8B3A62;
+	border-color: white;
+}
+.fonte4 {
+	color: #8B8878;
+	padding-left: 8px;
+}
+
+/*Jogo 4*/
+.cabecalho5 {
+	border: solid 1px;
+	width: 858px;
+	height: 290px;
+	background-color: #EECFA1;
+	border-color: white;
+}
+.fonte5 {
+	color: #8B2323;
+	padding-left: 8px;
+}
+
+/*Jogo 5*/
+.cabecalho6 {
+	border: solid 1px;
+	width: 858px;
+	height: 290px;
+	background-color: #EE7621;
+	border-color: white;
+}
+.fonte6 {
+	color: black;
+	padding-left: 8px;
+}
+
+/*Jogo 6*/
+.cabecalho7 {
+	border: solid 1px;
+	width: 858px;
+	height: 290px;
+	background-color: #00008B;
+	border-color: white;
+}
+.fonte7 {
+	color: white;
+	padding-left: 8px;
+}
+#principal3 {
+	border: solid 2px white;
+	width: 1320px;
+	height: 1050px;
+	background-image: url("imagens/1.jpg");
+}
+#secundaria3 {
+	border: solid 2px;
+	width: 860px;
+	height: 950px;
+	margin-top: 50px;
+	margin-left: 230px;
+	border-color: black;
+	background-color: white;
+	border-color: white;
+}
+
